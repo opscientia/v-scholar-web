@@ -1,0 +1,301 @@
+
+.top-container{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 300px auto;
+}
+
+h2{
+    margin-top: 0;
+    padding-top: 130px;
+    color: #ffffff;
+    font-size: 2.2rem !important;
+}
+body{
+    margin-top: 0px;
+    background-image: linear-gradient(to right, #5780C3, rgb(171, 145, 196) ) !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    
+}
+.navbar{
+    background-image: linear-gradient(to right, #5780C3, rgb(171, 145, 196) ) !important;
+    padding-left: 100px;
+    line-height: 1.5;
+    padding-top: 10px !important; 
+}
+.navbar-brand{
+    color: #ffffff !important;
+    font-size: 25px !important;
+    padding: 25px !important;
+}
+/* .d-flex{
+    background-color: #EEEEEE;
+    margin: 50px auto 50px auto;
+    width: 78%;
+} */
+.btn{
+    border-radius: 2px;
+}
+.btn-outline-success {
+    border-color: #FEC6C6 !important;
+    background-color: #FEC6C6 !important;
+    color: black !important;
+    padding: 7px 12px 7px 12px !important;
+}
+.sign-in{
+    margin-right: 100px !important;
+    width: 150px !important;
+}
+
+.middle-container{
+    background-color: #ffffff;
+    text-align: center;
+    color: #45526C;
+    padding: 5% 13% !important;
+
+}
+h3{
+    padding-bottom: 30px;
+    color: #EEEEEE;
+    padding: 10px;
+    margin: 15px;
+}
+p{
+    font-size: 18px;
+    color: #6D9CCB ;
+}
+img{
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 30px;
+    
+}
+.nav-item{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.navbar-toggler{
+    background-color: #FF7777 !important;
+}
+h4{
+    color: #5780C3 ;
+}
+.row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+img{
+    padding-bottom: 40px;
+}
+hr{
+    color: grey !important;
+}
+h3{
+    color: #5780C3  ;
+    padding-top: 50px;
+}
+.footer{
+    text-align: center;
+    padding-top: 30px;
+}
+.landing{
+    color: #ffffff;
+}
+.footer img{
+    width: 50px;
+    padding-top: 30px;
+}
+.footer_f{
+    background-color: black;
+    margin-bottom: 0;
+}
+.btn:hover{
+    background-color: black !important;
+    color: #F8F5F1 !important;
+}
+.btn{
+    margin-right: 0 !important;
+}
+.connect{
+    color: #ffffff;
+}
+#loginform{
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+  
+  #headerTitle{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding: 1rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    color: rgb(171, 145, 196);
+  }
+  
+  .row_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    max-width: 100%;
+    
+  }
+  
+  .row_1 input{
+    width: 80%;
+    box-sizing: border-box;
+      border: none;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  .row_1 input:focus{
+     box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+     outline: none;
+  }
+  
+  .row_1 input::-webkit-input-placeholder{
+    opacity: 1;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .row_1 input:hover::-webkit-input-placeholder,
+  .row_1 input:focus::-webkit-input-placeholder{
+    opacity: 0;
+  }
+  
+  .row_1 label{
+    align-self: start;
+    padding-left: 4.5rem;
+    padding-bottom: 0.5rem;
+    color: rgba(187,187,187,0.9);
+  }
+  
+  .row_1 button{
+    border-radius: 25px;
+    width: 80%;
+    height: 40px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: rgb(34,193,195);
+    background: linear-gradient(to right, #5780C3, rgb(171, 145, 196) ) !important;;
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .row button:hover{
+    opacity: 0.8;
+  }
+  
+  #button{
+    padding-bottom: 1.5rem;
+  }
+  
+  #facebookIcon{
+    background-image:      url("https://image.flaticon.com/icons/svg/145/145802.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #twitterIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145812.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #googleIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145804.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #iconGroup{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
+  #iconGroup a{
+    margin: 0 0.6rem;
+  }
+  
+  #alternativeLogin {
+     text-align: center;
+     padding-top: 2rem;
+     margin-top: 1.5rem;
+  }
+  .g-signin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color: #FEC6C6 !important;
+}
+.sign-in button{
+  background-color: #FEC6C6 !important;
+  color: black !important;
+  font-size: 14px !important;
+  border-radius: 2px !important;
+}
+.sign-out button{
+  background-color: gray;
+}
+.container-fluid{
+  margin-bottom: 15px;
+}
+.login-box{
+  margin: auto;
+  text-align: center;
+}
+/* .btn-default{
+  background-color: #FEC6C6;
+} */
+.margin-top-10{
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.uploadForm{
+  margin: 5% 25% 0 25%;
+  width: 130%;
+
+}
+.form-control title{
+   padding-top:  5px;
+}
+.checkbox{
+  margin: 0% 25% 0 25%;
+  width: 130%;
+}
+.uploadArweave{
+  margin: 0% 25% 25% 25%;
+  padding: auto;
+}
+.fa-cloud-upload{
+  margin: 0% 25% 0 25%;
+}
+.form-control{
+  padding: 1rem 1rem !important;
+}
+.file-upload-input{
+  padding: 0.375rem 0.375rem !important;
+}
+.me-2{
+  padding: 0.375rem 0.75rem !important;
+}
